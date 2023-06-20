@@ -1,10 +1,9 @@
 #include <stdio.h>
-/*
+/**
  * main - Prints a sentence with printf
- * Return:0
+ *
+ * Return:  0.
  */
-
-
 
 int main(void)
 {
