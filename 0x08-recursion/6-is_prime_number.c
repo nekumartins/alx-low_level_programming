@@ -16,7 +16,7 @@ int test(int n, int i)
 		{
 			return (0);
 		}
-		test(n, i + 1);
+		test(n, i - 1);
 	}
 	return (1);
 }
