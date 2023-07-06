@@ -10,15 +10,17 @@
 
 int test(int n, int i)
 {
-	if (i < n)
+	if (i <= 1)
 	{
-		if (n % i == 0)
-		{
-			return (0);
-		}
-		test(n, i - 1);
+		return (1);
 	}
-	return (1);
+
+	if (n % i == 0)
+	{
+		return (0);
+	}
+
+	return (test(n, i - 1));
 }
 
 /**
@@ -29,14 +31,11 @@ int test(int n, int i)
  */
 int is_prime_number(int n)
 {
-	int i;
 
-	if (n < 0 || n == 0 || n == 1)
+	if (n <= 1)
 	{
 		return (0);
 	}
-	i = (int) sqrt(n);
-	return (test(n, i));
+
+	return (test(n, n / 2));
 }
-
-
