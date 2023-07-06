@@ -18,7 +18,9 @@ int _sqrt_recursion(int n)
 		return (n);
 	}
 
-	int root = _sqrt_recursion(n - 1);
+	int root;
+
+	root = _sqrt_recursion(n - 1);
 
 	if (root * root > n)
 	{
