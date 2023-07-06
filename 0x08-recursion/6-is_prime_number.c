@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * test - check if number is prime
+ * test - checks for prime numbers
  * @n: number to be checked
  * @i: checkers
  *
- * Return 1 or 0
+ * Return: 1 or 0
  */
 
 int test(int n, int i)
@@ -16,7 +16,7 @@ int test(int n, int i)
 		{
 			return (0);
 		}
-		test(n, i +1);
+		test(n, i + 1);
 	}
 	return (1);
 }
