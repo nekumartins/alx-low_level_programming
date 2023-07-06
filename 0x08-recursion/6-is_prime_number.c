@@ -29,12 +29,13 @@ int test(int n, int i)
  */
 int is_prime_number(int n)
 {
+	int i;
 	if (n < 0 || n == 0 || n == 1)
 	{
 		return (0);
 	}
-
-	return (test(n, 1));
+	i = (int) sqrt(n);
+	return (test(n, i));
 }
 
 
