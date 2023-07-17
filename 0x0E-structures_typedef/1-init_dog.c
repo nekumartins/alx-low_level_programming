@@ -1,23 +1,20 @@
-#include "dog.h"
 #include <stdlib.h>
+#include "dog.h"
 
 /**
- * init_dog - initializes struct
- * @d: struct
- * @name: name of dog
- * @age: age of dog
- * @owner: owner of dog
- *
- * Return: void
- */
+  * init_dog - initialize struct dog.
+  * @d: name of struct
+  * @name: name of dog in struct
+  * @age: age of dog in struct
+  * @owner: name of owner of dog in struct
+  */
+
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	d = malloc(sizeof(struct dog));
 	if (d)
 	{
 		d->name = name;
 		d->age = age;
 		d->owner = owner;
 	}
-
 }
