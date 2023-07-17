@@ -4,9 +4,9 @@
 /**
   * init_dog - initialize struct dog.
   * @d: name of struct
-  * @name: name of dog in struct
-  * @age: age of dog in struct
-  * @owner: name of owner of dog in struct
+  * @name: name of dog
+  * @age: age of dog
+  * @owner: name of owner
   */
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
