@@ -9,7 +9,9 @@
  * struct listint_s - singly linked list
  * @n: integer
  * Description: singly linked list node structure
+ * @next: struct
  */
+
 typedef struct listint_s
 {
 	int n;
