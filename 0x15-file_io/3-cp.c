@@ -70,10 +70,10 @@ int main(int argc, char *argv[])
 }
 
 /**
- * err_close - close a file descriptor and check for a possible error
- * @fd: file descriptor for file to be closed
- * Return: 1
- */
+* err_close - close a file descriptor and check for a possible error
+* @num: file descriptor for file to be closed
+* Return: 1
+*/
 
 int err_close(int num)
 {
@@ -86,9 +86,9 @@ int err_close(int num)
 }
 
 /**
- * err_read - print the read error.
- * @filename: filename.
- */
+* err_read - print the read error.
+* @filename: filename.
+*/
 
 void err_read(char *filename)
 {
@@ -96,9 +96,9 @@ void err_read(char *filename)
 }
 
 /**
- * err_write - print the write error.
- * @filename: filename.
- */
+* err_write - print the write error.
+* @filename: filename.
+*/
 
 void err_write(char *filename)
 {
