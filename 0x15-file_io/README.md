@@ -1,1 +1,1 @@
-This readme is for file input and output stream
+This readme is for file input and out stream
